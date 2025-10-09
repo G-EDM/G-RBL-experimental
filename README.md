@@ -1,9 +1,8 @@
 # Warning
 
-It seems there could be an issue if this version is updated on an ESP containing the "old/stable" firmware. It is not confirmed yet to be an issue
-but it is possible. If there is the stable firmware present it is currently recommended to use a fresh ESP for this version. 
+It seems there could be an issue if this version is updated on an ESP containing the "old/stable" firmware. If there is the stable firmware present it is currently recommended to use a fresh ESP for this version or hard reset the board. The issue may be related to a different esp-idf version used in the new code.
 
-It also seems to work if the ESP with the old version gets a real factory reset with esptool:
+It seems to work if the ESP with the old version gets a real factory reset with esptool:
 
 To fully reset your ESP32, you can use a tool called esptool to erase the flash memory. Connect your ESP32 to your computer, install Python and esptool, then run the command `python -m esptool --chip esp32 erase_flash` in your terminal while holding the BOOT button on the device.
 
