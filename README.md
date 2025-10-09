@@ -1,3 +1,8 @@
+# Warning
+
+It seems there could be an issue if this version is updated on an ESP containing the "old/stable" firmware. It is not confirmed yet to be an issue
+but it is possible. If there is the stable firmware present it is currently recommended to use a fresh ESP for this version. 
+
 # Developer Code (Use on own risk)
 
 Only people who don't need a readme here should install it.
